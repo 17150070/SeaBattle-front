@@ -1,0 +1,7 @@
+.cell{
+    background: aquamarine;
+    /*border: 2px solid yellowgreen;*/
+    margin: 2px;
+    height: 25px;
+    width: 25px;
+}

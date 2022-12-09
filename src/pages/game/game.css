@@ -1,0 +1,12 @@
+#username{
+    height: 50px;
+    background: grey;
+    margin-bottom: 30px;
+}
+
+#field{
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    width: 290px;
+    margin-bottom: 50px ;
+}
