@@ -1,12 +1,60 @@
-#username{
-    height: 50px;
-    background: grey;
-    margin-bottom: 30px;
+#game-page{
+    height: 100vh;
+    background-image: url(../../../public/sea-battle.jpg);
+    background-repeat: no-repeat; /*отключение повторения изображения*/
+    background-position: center center; /*положение относительно центра*/
+    background-attachment: fixed; /*фон остается неподвижным*/
+    background-size: 100%;
 }
 
-#field{
+#game-page>header{
+    display: flex;
+    width: 100%;
+    background: #161b22;
+    margin-bottom: 100px;
+}
+
+#username{
+    height: 50px;
+    background: #161b22;
+    text-align: right;
+    padding: 20px 15px 0 0;
+    /*color: #61dafb;*/
+    color: gold;
+    font-size: 15pt;
+}
+
+#lucky{
+    margin-top: 0;
+    padding: 5px;
+    color: white;
+    align-self: center;
+    font-size: 16pt;
+}
+
+#game-field{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.field{
     display: grid;
     grid-template-columns: repeat(10, 10%);
     width: 290px;
-    margin-bottom: 50px ;
+    margin-bottom: 10px ;
+}
+
+#button-reset{
+    position: absolute;
+    bottom:100px;
+    right: 46%;
+    /*background: #61dafb;*/
+    background: gold;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    margin: auto ;
 }

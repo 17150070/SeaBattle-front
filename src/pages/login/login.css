@@ -3,8 +3,11 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #61dafb;
-
+    background-image: url(../../../public/sea-battle-login.jpg);
+    background-repeat: no-repeat; /*отключение повторения изображения*/
+    background-position: center center; /*положение относительно центра*/
+    background-attachment: fixed; /*фон остается неподвижным*/
+    background-size: 100%;
 }
 
 #login-form>form{
@@ -24,13 +27,16 @@
 
 
 #sea-battle-form-content{
-    flex:1
+    flex:1;
+    font-weight: 500;
 }
 
 #button-login{
-    background: chartreuse;
-    padding: 5px 10px;
+    /*background: #61dafb;*/
+    background: gold;
+    padding: 7px 15px;
     border: none;
     border-radius: 5px;
     margin-bottom: 20px;
+    font-size: 11pt;
 }

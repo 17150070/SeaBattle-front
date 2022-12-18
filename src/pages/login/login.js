@@ -10,7 +10,7 @@ const LoginPage = ({setCurrentPage, setUsername}) => {
     return (
         <div id='block-login'>
             <div id = 'login-form'>
-                <h2>Login</h2>
+                <h2>Морской бой</h2>
                 <form
                     onSubmit={loginUser}>{/*переход на страницу Game*/}
                     <div id='sea-battle-form-content'>

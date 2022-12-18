@@ -1,7 +1,23 @@
 .cell{
-    background: aquamarine;
-    /*border: 2px solid yellowgreen;*/
+    background: white;
     margin: 2px;
     height: 25px;
     width: 25px;
+    cursor: pointer;
+}
+
+.has_ship_destroyed{
+    background: red;
+}
+
+.has_ship_not_destroyed{
+    background: greenyellow;
+}
+
+.no_ship_destroyed{
+    background: grey;
+}
+
+.no_ship_not_destroyed{
+    background: white;
 }
